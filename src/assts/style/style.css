@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    background-color:#FFDD55;
+    flex-direction: column;
+}
+
+nav{
+    background-color:#000000;
+
+    a{
+        font-size: 36px;
+        font-weight: 600;
+        color: #ffffff;
+
+    }
+}
+
+
+
+
+
+.social-links {
+
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.social-links img {
+    filter: grayscale(100%);
+}
+.social-links:hover {
+    img {
+        filter: unset;
+    }
+}
