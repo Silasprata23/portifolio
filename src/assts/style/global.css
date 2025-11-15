@@ -78,7 +78,8 @@ summary,
 time,
 mark,
 audio,
-video {
+video,
+button {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -131,8 +132,11 @@ table {
 }
 
 :root {
-	--yellow: ##FFDD55;
+	--yellow: #FFDD55;
 	--black: #000000;
+	--gray: #474a57;
+	--aqua: #00c6ae;
+	--white: #FFFFFF;
 
 }
 
@@ -146,3 +150,4 @@ body{
   font-style: normal;
 
 }
+
